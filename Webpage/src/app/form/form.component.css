@@ -1,0 +1,134 @@
+.formContainer {
+    background: rgb(239, 238, 238);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%; /* Make the container full-width */
+
+}
+.tab{
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.tab ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.tabContent{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.tab li {
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;    
+}
+.Tab li:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  .tab li.active {
+    background-color: white;
+    border-bottom:4px solid rgb(74, 74, 162);
+    font-weight: 500;
+    color: rgb(38, 38, 148);
+}
+
+/* Styles for the form */
+.formContainer form {
+    background: white; /* Set background color for the form */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a slight elevation effect */
+  }
+  
+  /* Style for form fields */
+  .formContainer input[type="email"],
+  .formContainer input[type="text"],
+  .formContainer input[type="tel"],
+  .formContainer select,
+  .formContainer textarea {
+    width: calc(100% - 10px); /* Set width for form fields */
+    margin-right: 10px; /* Add spacing between form fields */
+    margin-bottom: 10px; /* Add spacing at the bottom of form fields */
+    padding: 10px; /* Add padding */
+    border: none; /* Remove border */
+    background-color: #f9f9f9; /* Set background color */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Ensure correct box sizing */
+  }
+  
+  /* Style for textareas */
+  .formContainer textarea {
+    width: calc(100% - 10px); /* Set width for textarea */
+  }
+  
+  /* Style for form labels */
+  .formContainer label {
+    display: block; /* Set labels to block display for proper alignment */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  /* Style for form button */
+  .formContainer button {
+    width: 100%; /* Set button width to fill the form container */
+    padding: 10px; /* Add padding */
+    background-color: rgb(74, 74, 162); /* Set button background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  /* Hover effect for form button */
+  .formContainer button:hover {
+    background-color: rgb(38, 38, 148); /* Darker background color on hover */
+  }
+  
+  /* card css */
+  .card {
+    /* width: 300px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 180px;
+  }
+
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .card-body {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .half {
+    width: 50%;
+    padding: 5px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  

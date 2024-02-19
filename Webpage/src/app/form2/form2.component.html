@@ -1,0 +1,58 @@
+
+<div class="mainformdiv">
+    <div class="tab">
+        <ul>
+            <li [class.active]="activeTabIndex === 0" (click)="handleTabClick(0)">IDrive User</li>
+            <li [class.active]="activeTabIndex === 1" (click)="handleTabClick(1)">IDrive Reseller</li>
+            <li [class.active]="activeTabIndex === 2" (click)="handleTabClick(2)">IDrive Bulk Reseller</li>
+        </ul>
+    </div>
+    
+    <div class="tabContent">
+        <div class="formContainer">
+            <form (submit)="submitForm()">
+                <div class="form-row">
+                  <label>Email:</label>
+                  <input type="email" name="email" >
+
+                  <label> Contact Phone Number:</label>
+                  <input type="tel" name="phone">
+                
+                </div>
+                <div class="form-row">
+                    <label>User Name:</label>
+                    <input type="text" name="username">
+                  <label>Operating System:</label>
+                  <select name="os" >
+                    <option value="Windows">Windows</option>
+                    <option value="MacOS">MacOS</option>
+                    <option value="Linux">Linux</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <label>Browser:</label>
+                  <select name="browser">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Edge">Edge</option>
+                  </select>
+                  <label>Description:</label>
+                  <textarea name="description" rows="10" [(ngModel)]="userData.description"></textarea>
+                </div>
+                <div class="form-row">
+                    <label>IDrive Program Used:</label>
+                    <select name="idriveProgram" >
+                      <option value="Personal">Personal</option>
+                      <option value="Business">Business</option>
+                    </select>
+                </div>
+                <div class="form-row-Button">
+                  <button type="submit">Report To Tech Support</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
+
+

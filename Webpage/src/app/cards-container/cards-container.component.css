@@ -1,0 +1,54 @@
+.card{
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.Cardscontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-body div {
+    width: 46%;
+    margin: 8px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+span svg {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* svg  */
+
+.st0{fill:none;stroke:#1782D9;stroke-width:2;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#DB895E;stroke-width:2;stroke-miterlimit:10;}
+.st2{fill:none;stroke:#DB895E;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#BF5EDB;stroke-width:2;stroke-miterlimit:10;}
+.st4{fill:none;stroke:#BF5EDB;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st5{fill:none;stroke:#72DFC5;stroke-width:2;stroke-miterlimit:10;}
+.st6{fill:none;stroke:#5D6EDB;stroke-width:2;stroke-miterlimit:10;}
+.st7{fill:none;stroke:#5D6EDB;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st8{fill:none;stroke:#029111;stroke-width:2;stroke-miterlimit:10;}
+.st9{fill:none;stroke:#029111;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st10{fill:#D1A700;stroke:#D1A700;}
+.st11{fill:#D1A700;stroke:#D1A700;stroke-miterlimit:10;}
+.st12{fill:none;stroke:#9F3C5A;stroke-width:2;stroke-miterlimit:10;}
+

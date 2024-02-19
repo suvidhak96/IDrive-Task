@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55, 53, 58);
+    color: rgb(207, 199, 199);
+}
+
+
+.footer ul li {
+    list-style: none;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.footerlogoImg  {
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.footer-block{
+    margin: 20px;
+}
+
+.titleinfooter{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px !important;
+}
+
+
+
